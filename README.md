@@ -14,11 +14,11 @@ Data can be accessed here: https://archive.ics.uci.edu/ml/datasets/arrhythmia
 EKG Image source: https://en.wikipedia.org/wiki/Electrocardiography
 
 Required imports to run model.py:
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
+import pandas as pd, 
+import matplotlib.pyplot as plt, 
+import numpy as np, 
+from sklearn.ensemble import RandomForestClassifier, 
+from sklearn.metrics import accuracy_score, 
     
 
 ANALYSIS
