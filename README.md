@@ -36,6 +36,7 @@ STEP 2) Classification by various scikit-learn stock models
 STEP 3) Select best model to optimize: Random Forest
 
 STEP 4) Optimize the model
+
 The following techniques were used to try to improve the classification accuracy of the Random Forest model:
 1.	Feature Selection – top features (of various levels) based on feature importance were used to generate new “selective” data frames for training the model.  This method resulted in no significant improvement of classification accuracy.
 2.	Define Heart Rate Bounds -  it was noticed that the model had a hard time classifying instances as “Rate”, so bounds were set and tweaked to train the data.  E.g. all instances with heart rate values >98 or <56 were classified as “Rate”.  This method resulted in no significant improvement of classification accuracy.
