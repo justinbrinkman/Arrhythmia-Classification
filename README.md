@@ -24,10 +24,10 @@ from sklearn.metrics import accuracy_score,
 ANALYSIS
 
 STEP 1) Data cleaning
-•	This data has many non-numerical values, so they were all converted to NaN
-•	Over half the cells in column 14 were NaN, so the column was dropped
-•	Remaining NaN values in the data set were filled by the calculated median values of their respective columns
-•	Reduce 16 categories to 6 by physiological similarity: "Normal", "Rate", "Rhythm", "Infarction", "Block" and "Other"
+1.	This data has many non-numerical values, so they were all converted to NaN
+2.	Over half the cells in column 14 were NaN, so the column was dropped
+3.	Remaining NaN values in the data set were filled by the calculated median values of their respective columns
+4.	Reduce 16 categories to 6 by physiological similarity: “Normal”, “Rate”, “Rhythm”, “Infarction”, “Block” and “Other”
 
 STEP 2) Classification by various scikit-learn stock models
 
