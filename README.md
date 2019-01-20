@@ -1,6 +1,6 @@
 # Arrhythmia-Classification
 
-![Screenshot](https://github.com/justinbrinkman/Arrhythmia-Classification/blob/master/ekg.PNG)
+![Screenshot](https://github.com/justinbrinkman/Arrhythmia-Classification/blob/master/ekg.png)
 
 This analysis was performed for a 24-hour hackathon.  The goal was to identify and optimize the best
 model for classifying EKG results into one of 6 categories.  Other analyses have shown that high
