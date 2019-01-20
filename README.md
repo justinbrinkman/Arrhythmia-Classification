@@ -3,12 +3,15 @@
 ![Screenshot](https://github.com/justinbrinkman/Arrhythmia-Classification/blob/master/ekg.png)
 
 This analysis was performed for a 24-hour hackathon.  Our goal was to identify and optimize the best
-model for classifying EKG results into one of 6 categories.  Other analyses have shown that high
+model for classifying EKG results into one of 6 categories in order to assist medical professionals 
+in the detection and general classification of arrhythmia.  Other analyses have shown that high
 accuracy scores can be achieved when performing binary classification (Normal vs Arrhythmia), but
 not for multi-classification.
 
 Data for this project was taken from the UCI Machine Learning Repository.
 Data can be accessed here: https://archive.ics.uci.edu/ml/datasets/arrhythmia
+
+EKG Image source: https://en.wikipedia.org/wiki/Electrocardiography
 
 Required imports to run model.py:
     import pandas as pd
