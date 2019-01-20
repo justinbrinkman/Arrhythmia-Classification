@@ -44,7 +44,7 @@ The following techniques were used to try to improve the classification accuracy
 4.	Parameter Tuning – Random Forest model parameters were adjusted to achieve a better fit to the data.  This method improved the model accuracy from 71% to 77% when averaged over 100 trials.
 
 Conclusion / Takeaways
-1.	With such a small sample size and large number of features, it is difficult to achieve high classification accuracy for 6 classes by machine learning algorithms.  It is likely that the model is highly overfitting to the data.
+1.	With such a small sample size and large number of features, it is difficult to achieve high classification accuracy for 6 classes by machine learning algorithms.  It is likely that the model is highly overfitting the data.
 2.	It may be possible to engineer new features that can be easily interpreted by the algorithm.  For instance, ‘Rhythm’ was often misclassified by our model.  A likely strong feature would be standard deviations of time between beats.
 3.	When in a hackathon, know when to stop tweaking the model to achieve miniscule improvements.  This took time away from experimenting with data visualizations.
 
