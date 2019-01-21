@@ -31,7 +31,7 @@ STEP 1) Data cleaning
 
 STEP 2) Classification by various scikit-learn stock models
 
-![Screenshot](https://github.com/justinbrinkman/Arrhythmia-Classification/blob/master/stockmodels.PNG)
+![Screenshot](https://github.com/justinbrinkman/Arrhythmia-Classification/blob/master/stockmodelgraph.PNG)
 
 STEP 3) Select best model to optimize: Random Forest
 
